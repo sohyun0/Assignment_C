@@ -22,7 +22,7 @@ typedef struct student
 int isStringDouble(char *s)
 {
     size_t size = strlen(s);
-    if (size == 0)
+    if (size == 
         return 0; // 0바이트 문자열은 숫자가 아님
 
     for (int i = 0; i < (int)size; i++)
